@@ -26,4 +26,4 @@ let config = async (action, key, value) => {
   }
 };
 
-module.exports = config;
+export default config;

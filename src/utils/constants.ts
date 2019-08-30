@@ -14,6 +14,6 @@ export const RC = `${HOME}/.medusarc`;
 // 模板下载地址可配置
 export const DEFAULTS = {
   registry: "nbmds",
-  store: "template",
+  store: "medusa-module",
   type: "users"
 };

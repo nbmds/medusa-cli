@@ -38,6 +38,9 @@ export const set = async (key, value) => {
   if (exit) {
     opts = await readFile(RC, "utf8");
     opts = decode(opts);
+    if (key === "default") {
+      return;
+    }
     if (!key) {
       console.log(
         chalk.red(chalk.bold("Error:")),
