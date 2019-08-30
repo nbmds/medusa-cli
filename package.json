@@ -1,6 +1,6 @@
 {
-  "name": "@nuyano/medusa-cli",
-  "version": "1.0.0",
+  "name": "@nbmds/medusa-cli",
+  "version": "1.0.2",
   "description": "",
   "bin": {
     "medusa": "./bin/www"
